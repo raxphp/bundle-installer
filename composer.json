@@ -1,0 +1,13 @@
+{
+    "name": "rax/bundle-installer",
+    "type": "composer-installer",
+    "license": "BSD 3-Clause",
+    "autoload": {
+        "psr-0": {
+            "Rax": "src/"
+        }
+    },
+    "extra": {
+        "class": "Rax\\Composer\\BundleInstaller"
+    }
+}
