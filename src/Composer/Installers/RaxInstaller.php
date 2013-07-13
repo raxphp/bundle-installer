@@ -1,8 +1,6 @@
 <?php
 
-namespace Rax\Composer;
-
-use Composer\Installers\BaseInstaller;
+namespace Composer\Installers;
 
 /**
  * {@inheritdoc}

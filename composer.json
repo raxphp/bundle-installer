@@ -7,11 +7,11 @@
     "keywords": ["rax", "installer"],
     "autoload": {
         "psr-0": {
-            "Rax\\": "src/"
+            "Composer\\Installers\\": "src/"
         }
     },
     "extra": {
-        "class": "Rax\\Composer\\RaxInstaller",
+        "class": "Composer\\Installers\\Installer",
         "branch-alias": {
             "dev-master": "0.x-dev"
         }
