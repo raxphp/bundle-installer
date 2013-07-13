@@ -2,7 +2,7 @@
     "name": "rax/bundle-installer",
     "description": "Bundle installer for the Rax PHP framework.",
     "type": "composer-installer",
-    "license": "BSD 3-Clause",
+    "license": "BSD-3-Clause",
     "homepage": "http://raxproject.com",
     "autoload": {
         "psr-0": {
@@ -10,9 +10,10 @@
         }
     },
     "extra": {
-        "class": "Rax\\Composer\\BundleInstaller"
+        "class": "Rax\\Composer\\RaxInstaller"
     },
     "require-dev": {
-        "composer/composer": "*@dev"
+        "composer/composer": "@dev",
+        "composer/installers": "@dev"
     }
 }
