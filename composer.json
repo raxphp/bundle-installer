@@ -13,7 +13,7 @@
     "extra": {
         "class": "Rax\\Composer\\RaxInstaller",
         "branch-alias": {
-            "dev-master": "0.0.1-dev"
+            "dev-master": "0.0.x-dev"
         }
     },
     "require-dev": {
