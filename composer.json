@@ -10,10 +10,14 @@
         }
     },
     "extra": {
-        "class": "Rax\\Composer\\RaxInstaller"
+        "class": "Rax\\Composer\\RaxInstaller",
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     },
     "require-dev": {
-        "composer/composer": "@dev",
-        "composer/installers": "@dev"
-    }
+        "composer/composer": "*",
+        "composer/installers": "*"
+    },
+    "minimum-stability": "dev"
 }
