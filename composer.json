@@ -16,9 +16,11 @@
             "dev-master": "0.x-dev"
         }
     },
-    "require-dev": {
-        "composer/composer": "*",
+    "require": {
         "composer/installers": "*"
+    },
+    "require-dev": {
+        "composer/composer": "*"
     },
     "minimum-stability": "dev"
 }
