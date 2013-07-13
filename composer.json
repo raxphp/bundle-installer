@@ -1,6 +1,6 @@
 {
     "name": "rax/bundle-installer",
-    "description": "Bundle installer for the Rax framework.",
+    "description": "Rax PHP Bundle Installer",
     "type": "composer-installer",
     "license": "BSD-3-Clause",
     "homepage": "http://raxproject.com",
